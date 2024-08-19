@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 36px;
+}
+
+.App {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: wrap;
+  flex-direction: column;
+}
+
+.displayBox, #textInput {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow:  3px 3px 5px rgba(0, 0, 0, 0.709)
+}
+
+.displayBox {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayBox p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#textInput {
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+  width: 500px;
+  font-size: 1rem;
+  outline: none;
+}
