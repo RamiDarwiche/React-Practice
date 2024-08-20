@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className="App">
+      <Header title="Range Brothers"/>
       <DataProvider>
-        <Header title="Range Brothers"/>
         <Nav/>
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -25,8 +25,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Missing />} />
         </Routes>
-        <Footer />
       </DataProvider>
+      <Footer />
     </div>
   );
 }
