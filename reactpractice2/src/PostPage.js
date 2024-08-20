@@ -17,9 +17,9 @@ const PostPage = () => {
         const postList = posts.filter((post) => post.id !== id)
         setPosts(postList)
         navigate('/')
-    } catch(err) {
-        console.log(`Error: ${err.message}`)
-        } 
+      } catch(err) {
+          console.log(`Error: ${err.message}`)
+      } 
     }
 
     return (

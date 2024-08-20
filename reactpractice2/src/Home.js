@@ -1,5 +1,6 @@
 import Feed from "./Feed"
 import { useContext } from 'react'
+import { useStoreState } from 'easy-peasy'
 import DataContext from './context/DataContext'
 
 const Home = () => {
